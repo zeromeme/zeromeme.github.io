@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="-notebook -html&css," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
+
+
+
+
+
+
+<meta name="description" content="##笔记：HTML&amp;amp;CSS基础## 七月的时候跟着@陈斌儿童编程和机器人的程序媛计划开始学习编程，在这之前是一个学会计的没有梦想的咸鱼，真的很幸运当初报名了这个计划，感谢斌叔可以说是无私的付出了！coding is interesting！ 我的学习资源：  程序媛计划的课程：https://www.cxy61.com/girl/app/home/home.html 《HTML&amp;amp;">
+<meta name="keywords" content="-notebook -html&amp;css">
+<meta property="og:type" content="article">
+<meta property="og:title" content="html-notebook">
+<meta property="og:url" content="http://yoursite.com/2017/09/23/html-notebook/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="##笔记：HTML&amp;amp;CSS基础## 七月的时候跟着@陈斌儿童编程和机器人的程序媛计划开始学习编程，在这之前是一个学会计的没有梦想的咸鱼，真的很幸运当初报名了这个计划，感谢斌叔可以说是无私的付出了！coding is interesting！ 我的学习资源：  程序媛计划的课程：https://www.cxy61.com/girl/app/home/home.html 《HTML&amp;amp;">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/006tKfTcgy1fjtsixdg9lj30zg0rot9u.jpg">
+<meta property="og:image" content="https://ws4.sinaimg.cn/large/006tKfTcgy1fjtt1clxjdj310a05iwes.jpg">
+<meta property="og:updated_time" content="2017-10-22T04:56:07.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="html-notebook">
+<meta name="twitter:description" content="##笔记：HTML&amp;amp;CSS基础## 七月的时候跟着@陈斌儿童编程和机器人的程序媛计划开始学习编程，在这之前是一个学会计的没有梦想的咸鱼，真的很幸运当初报名了这个计划，感谢斌叔可以说是无私的付出了！coding is interesting！ 我的学习资源：  程序媛计划的课程：https://www.cxy61.com/girl/app/home/home.html 《HTML&amp;amp;">
+<meta name="twitter:image" content="https://ws1.sinaimg.cn/large/006tKfTcgy1fjtsixdg9lj30zg0rot9u.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.2',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/09/23/html-notebook/"/>
+
+
+
+
+
+  <title>html-notebook | Hexo</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            目录
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/23/html-notebook/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zeromeme">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ws1.sinaimg.cn/large/006tNc79gy1fjt7z3p6khj30qk0qajtu.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">html-notebook</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-23T19:10:05+08:00">
+                2017-09-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/09/23/html-notebook/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/09/23/html-notebook/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <script src="/assets/js/APlayer.min.js"> </script><p>##笔记：HTML&amp;CSS基础##</p>
+<p>七月的时候跟着<a href="http://weibo.com/haorenao?refer_flag=1001030103_&amp;is_hot=1" target="_blank" rel="external">@陈斌儿童编程和机器人</a>的程序媛计划开始学习编程，在这之前是一个学会计的没有梦想的咸鱼，真的很幸运当初报名了这个计划，感谢斌叔可以说是无私的付出了！coding is interesting！</p>
+<p>我的学习资源：</p>
+<ol>
+<li>程序媛计划的课程：<a href="https://www.cxy61.com/girl/app/home/home.html" target="_blank" rel="external">https://www.cxy61.com/girl/app/home/home.html</a></li>
+<li>《HTML&amp;CSS设计与构建网站》google drive分享链接：<a href="https://drive.google.com/open?id=0Bzo_0SqaeHqcWFpPWW80R0VSdk0" target="_blank" rel="external">https://drive.google.com/open?id=0Bzo_0SqaeHqcWFpPWW80R0VSdk0</a></li>
+<li>FreeCodeCamp的教程：<a href="https://www.freecodecamp.org/" target="_blank" rel="external">https://www.freecodecamp.org/</a></li>
+</ol>
+<h6 id="不是教程是笔记，不太有逻辑性，我觉得简单的懒就不记了"><a href="#不是教程是笔记，不太有逻辑性，我觉得简单的懒就不记了" class="headerlink" title="不是教程是笔记，不太有逻辑性，我觉得简单的懒就不记了"></a>不是教程是笔记，不太有逻辑性，我觉得简单的懒就不记了</h6><h3 id="HTML是啥"><a href="#HTML是啥" class="headerlink" title="HTML是啥"></a>HTML是啥</h3><p>HTML是一种超文本标记语言，它不是一种编程语言，而是一种标记语言，用来描述网页。我们用HTML配合CSS即javascript等其他语言配合写出的html文档被web浏览器读取出来就是网页。HTML包含标签和纯文本，可以看作是网页中的静态部分。</p>
+<h3 id="用什么写HTML？"><a href="#用什么写HTML？" class="headerlink" title="用什么写HTML？"></a>用什么写HTML？</h3><p>任何文本编辑器都可以写Html，我用了sublime，属于代码编辑器，后面写css和javascript也可以直接用它，好使！ <a href="https://www.sublimetext.com/3" target="_blank" rel="external">戳这里直接下载</a></p>
+<p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1fjtsixdg9lj30zg0rot9u.jpg" alt=""></p>
+<p>打开sublime并将文件后缀名改为.html保存就生成了网页，打开该文档就可以看到你写的html变成网页的样子</p>
+<h3 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h3><ol>
+<li><p><strong>全局属性</strong></p>
+<p>Class 类同一元素添加多个类，中间空格</p>
+<p>id 就id呗</p>
+<p>style 行内样式</p>
+<p>contenteditable: true/ false 可否编辑</p>
+<p>draggable: true/false/auto 可否拽动</p>
+<p>title=“ ” 额外信息，鼠标悬停显示</p>
+<p>type 类型  例如=“placeholder”占位符</p>
+</li>
+<li><p><strong>事件属性</strong></p>
+<p>鼠标：onclick  ondbclick</p>
+</li>
+</ol>
+<h3 id="常用标签"><a href="#常用标签" class="headerlink" title="常用标签"></a>常用标签</h3><ol>
+<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;!DOCTYPE html&gt;</div><div class="line">&lt;html&gt;</div><div class="line">	&lt;head&gt; //头部</div><div class="line">		&lt;meta charset=&quot;UTF-8&quot;&gt; //中文可编译</div><div class="line">		&lt;style&gt;&lt;/style&gt; //css层叠样式表</div><div class="line">		&lt;script&gt;&lt;/script&gt; //js</div><div class="line">	&lt;head&gt;</div><div class="line">	&lt;body&gt;</div><div class="line">	   //内容</div><div class="line">	&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>
+<p> ​</p>
+</li>
+<li><p><h> </h> 标题 heading，h1字体最大，依次减小</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;h1&gt;heading1&lt;/h1&gt;</div><div class="line">&lt;h2&gt;heading2&lt;/h2&gt;</div></pre></td></tr></table></figure>
+<h1 id="heading1"><a href="#heading1" class="headerlink" title="heading1"></a>heading1</h1><h2 id="heading2"><a href="#heading2" class="headerlink" title="heading2"></a>heading2</h2></li>
+<li><p><code>&lt;hr/&gt;</code>分割线</p>
+<p><code>&lt;p&gt; &lt;/p&gt;</code>段落正文</p>
+<p><code>&lt;i&gt; &lt;/i&gt;</code>斜体           <code>&lt;b&gt; &lt;/b&gt;</code>粗体</p>
+<p><code>&lt;sup&gt; &lt;/sup&gt;</code>  上标       <code>&lt;sub&gt; &lt;/sub&gt;</code>下标</p>
+<p>举例：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span> </div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">h1</span>&gt;</span>example<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">p</span>&gt;</span>正常<span class="tag">&lt;<span class="name">b</span>&gt;</span>粗体<span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;<span class="name">i</span>&gt;</span>斜体<span class="tag">&lt;/<span class="name">i</span>&gt;</span><span class="tag">&lt;<span class="name">sup</span>&gt;</span>上标<span class="tag">&lt;/<span class="name">sup</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1fjtt1clxjdj310a05iwes.jpg" alt=""></p>
+</li>
+<li><p><code>&lt;img src=&quot;url&quot;&gt;</code>图片</p>
+</li>
+<li><p><code>&lt;a href=&quot;url&quot; target=&quot;-blank&quot;&gt;text&lt;/a&gt;</code>链接 </p>
+<p>属性target打开目标 -blank为在新窗口打开</p>
+<p>url可以写#id，链接到页面中的对应id元素</p>
+</li>
+<li><p><code>&lt;div&gt; &lt;/div&gt;</code>分块 </p>
+</li>
+<li><p>表单 <code>&lt;form&gt;&lt;/form&gt;</code></p>
+<p>action=”url” 接受的url</p>
+<p>单行文本框／密码／单选按钮／复选按钮<code>&lt;input type=&quot;text/password/radio/checkbox&quot;&gt; &lt;/input&gt;</code> </p>
+</li>
+<li><p>​</p>
+</li>
+</ol>
+<p>html好简单啊 </p>
+<p>我不想写了……感觉都不用整理啊这些，我记一点我觉得难的好了</p>
+<h3 id="CSS的使用"><a href="#CSS的使用" class="headerlink" title="CSS的使用"></a>CSS的使用</h3><ol>
+<li>使用外部css：写好单独的css文件后，在<head>内加入<link href="“" ”="" type="“text/css”" rel="stylesheet">，好处是一个文件可以直接引用到多个html文件一起用</head></li>
+<li>在<head>内部，内联表，使用css选择器，方便</head></li>
+<li>html标签内</li>
+</ol>
+<h3 id="CSS的属性们"><a href="#CSS的属性们" class="headerlink" title="CSS的属性们"></a>CSS的属性们</h3><h5 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h5><table>
+<thead>
+<tr>
+<th>属性</th>
+<th style="text-align:left">属性值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>color</td>
+<td style="text-align:left">1. 直接上名称：white/red/black/blue                                                                                                      2. rgba(0-255,0-255,0-255 ,0.0-1.0 )，前三个数对应r/g/b值越大越多，a是透明度 1.0完全透明      3. hex code：#123456 六个数字中每两位依次表示rgb值，十六进制（0-9 A-F），越大越多</td>
+</tr>
+<tr>
+<td>background-color/image/repeat/attachment/position</td>
+<td style="text-align:left">颜色/图像：”url”/重复方式：repeat(水平垂直重复)repeat-x(水平重复)repeat-y(垂直重复)no-repeat(不重复)/滚动时图像的移动方式fixed scroll/对不重复的背景图像指定位置</td>
+</tr>
+<tr>
+<td>height/width</td>
+<td style="text-align:left">高/宽。具体数值px</td>
+</tr>
+<tr>
+<td>float</td>
+<td style="text-align:left">使普通流中的元素浮动——尽可能地靠左/右排列：left/right</td>
+</tr>
+<tr>
+<td>clear</td>
+<td style="text-align:left">清除浮动，清除左/右/两边均不接触/均可接触元素：left/right/both/none</td>
+</tr>
+<tr>
+<td>position</td>
+<td style="text-align:left">static</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h5 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h5><table>
+<thead>
+<tr>
+<th>属性</th>
+<th>属性值说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>font-size</td>
+<td>值px／?%(设置了默认大小时可用百分比)／ ?em（？个m的宽度）</td>
+</tr>
+<tr>
+<td>font-family</td>
+<td>serif衬线   sans-serif无衬线   monospace等宽</td>
+</tr>
+<tr>
+<td>text-transform</td>
+<td>大小写 uppercase大写  lowercase小写   capitalize首字母大写</td>
+</tr>
+<tr>
+<td>text-align</td>
+<td>对齐方式：center/left/right/justify</td>
+</tr>
+<tr>
+<td>line-height</td>
+<td>行间距： 一般是1.4～1.5em</td>
+</tr>
+<tr>
+<td>text-decoration</td>
+<td>underline下划线   overline顶部线   line-through穿过文字</td>
+</tr>
+<tr>
+<td>Text-text-shadow</td>
+<td>文本投影  ?px(左)?px(上下)?(模糊度)#232673 (颜色)</td>
+</tr>
+</tbody>
+</table>
+<h5 id="div盒子"><a href="#div盒子" class="headerlink" title="div盒子"></a>div盒子</h5><table>
+<thead>
+<tr>
+<th>属性</th>
+<th>属性值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>min/max-width/height</td>
+<td>宽高限制</td>
+</tr>
+<tr>
+<td>border-width/style/color</td>
+<td>style: solid/dotted/dashed等</td>
+</tr>
+<tr>
+<td>margin-top/right/bottom/left</td>
+<td>外距离，简写时顺序 上右下左</td>
+</tr>
+<tr>
+<td>border-radius</td>
+<td>边框半径 变圆角</td>
+</tr>
+<tr>
+<td>padding</td>
+<td>内边距，用法同margin</td>
+</tr>
+<tr>
+<td>display</td>
+<td>块级元素与内联元素的转换：inline(块-&gt;内)     block(内-&gt;块)  none(隐藏)       Inline-block(行内块级元素)</td>
+</tr>
+<tr>
+<td>overflow</td>
+<td>当内容溢出div时: hidden(隐藏), scroll(滚动)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="CSS选择器"><a href="#CSS选择器" class="headerlink" title="CSS选择器"></a>CSS选择器</h3><p>通用：</p>
+<table>
+<thead>
+<tr>
+<th>选择器</th>
+<th>选择对象</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>*{ }</td>
+<td>所有元素</td>
+</tr>
+<tr>
+<td>h1{ }</td>
+<td>所有<h1></h1></td>
+</tr>
+<tr>
+<td>.note{ }</td>
+<td>class为note的所有元素</td>
+</tr>
+<tr>
+<td>p.note{ }</td>
+<td>class为note的所有<p>元素</p></td>
+</tr>
+<tr>
+<td>#intro{ }</td>
+<td>id为intro 的元素</td>
+</tr>
+<tr>
+<td>li&gt;a{ }</td>
+<td>所有父元素为<li>的<a>元素</a></li></td>
+</tr>
+<tr>
+<td>p a{ }</td>
+<td>所有位于<p>中的 <a>元素</a></p></td>
+</tr>
+<tr>
+<td>h1+p{ }</td>
+<td>位于<h1>后的第一个<p>元素</p></h1></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>css样式冲突时的优先顺序原则：</p>
+<ol>
+<li>内联表中，对于两个相同的选择器，后面的优先</li>
+<li>更具体的更优先，例如h1优先于*； p.note 优先于.note</li>
+<li>重要性： 将 !important 添加到属性值中，优先级最高</li>
+</ol>
+<h5 id="伪元素／伪类"><a href="#伪元素／伪类" class="headerlink" title="伪元素／伪类"></a>伪元素／伪类</h5><p>状态类，元素处于某个状态时的样式，响应用户</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>:hover { }</td>
+<td>光标悬停</td>
+</tr>
+<tr>
+<td>:active { }</td>
+<td>被激活的元素</td>
+</tr>
+<tr>
+<td>:focus { }</td>
+<td>被选中的元素</td>
+</tr>
+<tr>
+<td>:first-letter { }</td>
+<td>元素的第一个字母</td>
+</tr>
+<tr>
+<td>:first-child { }</td>
+<td>元素的第一个字元素</td>
+</tr>
+<tr>
+<td>:link { }</td>
+<td>未被访问的链接</td>
+</tr>
+<tr>
+<td>:visited { }</td>
+<td>已被访问的链接</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>……</p>
+<p>to be updated</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/notebook-html-css/" rel="tag"># -notebook -html&css</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/22/Have-a-try：mac上搭建hexo/" rel="next" title="Have a try：mac上搭建hexo！">
+                <i class="fa fa-chevron-left"></i> Have a try：mac上搭建hexo！
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/09/29/bootstrap/" rel="prev" title="笔记：Bootstrap框架">
+                笔记：Bootstrap框架 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          
+            <img class="site-author-image" itemprop="image"
+              src="https://ws1.sinaimg.cn/large/006tNc79gy1fjt7z3p6khj30qk0qajtu.jpg"
+              alt="zeromeme" />
+          
+            <p class="site-author-name" itemprop="name">zeromeme</p>
+            <p class="site-description motion-element" itemprop="description">不如掀了这桌麻将一起听听海浪／whatever／just for fun</p>
+        </div>
+
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+            
+              <a href="/archives/">
+            
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/zeromeme" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>GitHub</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/zeromememe" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>Twitter</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/u/1567244424" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-globe"></i>微博</a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-6"><a class="nav-link" href="#不是教程是笔记，不太有逻辑性，我觉得简单的懒就不记了"><span class="nav-number">1.</span> <span class="nav-text">不是教程是笔记，不太有逻辑性，我觉得简单的懒就不记了</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#HTML是啥"><span class="nav-number"></span> <span class="nav-text">HTML是啥</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#用什么写HTML？"><span class="nav-number"></span> <span class="nav-text">用什么写HTML？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#属性"><span class="nav-number"></span> <span class="nav-text">属性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用标签"><span class="nav-number"></span> <span class="nav-text">常用标签</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#heading1"><span class="nav-number"></span> <span class="nav-text">heading1</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#heading2"><span class="nav-number"></span> <span class="nav-text">heading2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#CSS的使用"><span class="nav-number"></span> <span class="nav-text">CSS的使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CSS的属性们"><span class="nav-number"></span> <span class="nav-text">CSS的属性们</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#常用"><span class="nav-number"></span> <span class="nav-text">常用</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#文本"><span class="nav-number"></span> <span class="nav-text">文本</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#div盒子"><span class="nav-number"></span> <span class="nav-text">div盒子</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CSS选择器"><span class="nav-number"></span> <span class="nav-text">CSS选择器</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number"></span> <span class="nav-text"></span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number"></span> <span class="nav-text">后的第一个元素</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#伪元素／伪类"><span class="nav-number"></span> <span class="nav-text">伪元素／伪类</span></a></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">zeromeme</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+  <span class="post-meta-divider">|</span>
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.2</div>
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.2"></script>
+
+
+
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://z.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://yoursite.com/2017/09/23/html-notebook/';
+          this.page.identifier = '2017/09/23/html-notebook/';
+          this.page.title = 'html-notebook';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://z.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
